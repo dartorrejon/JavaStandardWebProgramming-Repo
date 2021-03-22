@@ -9,7 +9,7 @@ public class Ejercicio1 {
 		// Definimos la variables de entrada
 		float nota1, nota2, nota3;
 		float promedio;
-		float resto;
+		
 		Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("Ingrese la nota 1: ");
@@ -22,13 +22,13 @@ public class Ejercicio1 {
 		nota3 = teclado.nextFloat();
 		
 		promedio = (nota1+nota2+nota3)/3;
-		resto = nota1%2;
+		
 		if(promedio>=7) {
 			System.out.println("El alumno esta aprobado");
 		}else {
 			System.out.println("El alumno esta reprobado");
 		}
-		System.out.println(resto);
+		
 		
 	}
 }
