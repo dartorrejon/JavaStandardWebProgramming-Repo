@@ -6,7 +6,7 @@ public class AppPrincipal {
 	public static void main(String[] args) {
 		Alumno alu1 = new Alumno();
 		Alumno alu2 = new Alumno();
-		Alumno alu3 = new Alumno();
+		Alumno alu3 = new Alumno("Martinez", "Jose", 29);
 
 		
 		alu1.nombre = "Dario";
@@ -17,9 +17,9 @@ public class AppPrincipal {
 		alu2.apellido = "Torrejon";
 		alu2.edad = 33;
 		
-		alu3.nombre = "Maria";
-		alu3.apellido = "Rordiguez";
-		alu3.edad = 21;
+//		alu3.nombre = "Maria";
+//		alu3.apellido = "Rordiguez";
+//		alu3.edad = 21;
 				
 
 //		// Mostramos por consola el estado de los atributos del objeto alu1
