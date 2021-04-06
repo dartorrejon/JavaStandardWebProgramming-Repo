@@ -28,7 +28,7 @@ public class AppPrincipal {
 		System.out.println("Ingrese el valor del numero 2: ");
 		int n2 = t1.nextInt();
 		
-		int suma =Calculadora.sumar(n1, n2);
+		int suma =Calculadora.sumar(n1, n2);	
 		int  resta = Calculadora.restar(n1, n2);
 		
 		System.out.println("El resultado de la suma es: "+suma);
