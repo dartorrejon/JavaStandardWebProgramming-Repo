@@ -1,5 +1,7 @@
 package com.educacionit.main;
 
+
+
 import java.util.ArrayList;
 
 import com.educacionit.clasePadre.Persona;
@@ -7,7 +9,7 @@ import com.educacionit.modelos.Entrenador;
 import com.educacionit.modelos.Futbolista;
 import com.educacionit.modelos.Masajista;
 
-import jdk.swing.interop.SwingInterOpUtils;
+
 
 public class AppPrincipal {
 	
