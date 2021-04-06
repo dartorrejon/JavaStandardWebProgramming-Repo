@@ -12,6 +12,7 @@ public class Fecha {
 		this.anio = anio;
 		
 		if(!fechaCorrecta()) {
+			//Obtenemos mediante la clase Calendar la fecha del SO
 			Calendar fechaSistema = Calendar.getInstance();
 			setDia(fechaSistema.get(Calendar.DAY_OF_MONTH));
 			setMes(fechaSistema.get(Calendar.MONTH)+1);
