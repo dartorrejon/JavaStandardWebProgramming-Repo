@@ -23,6 +23,12 @@ public class Cliente extends Persona {
 	public void setNroCliente(int nroCliente) {
 		this.nroCliente = nroCliente;
 	}
+
+	@Override
+	public String toString() {
+		return "Cliente [nroCliente=" + nroCliente + ", id=" + id + ", nombre=" + nombre + ", telefono=" + telefono
+				+ ", domicilio=" + domicilio + "]";
+	}
 	
 	
 }
