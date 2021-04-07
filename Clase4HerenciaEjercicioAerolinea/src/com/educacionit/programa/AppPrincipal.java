@@ -22,6 +22,6 @@ public class AppPrincipal {
 		
 		Vuelo f = new Vuelo();
 		f.agregarPasajero(matias);
-			
+		
 	}
 }
