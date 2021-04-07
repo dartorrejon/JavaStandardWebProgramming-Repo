@@ -1,8 +1,26 @@
 package com.educacionit.bases;
 
-public abstract class Oracle {
+import com.educacionit.abs.SQLDataBase;
+
+public class Oracle extends SQLDataBase{
+
+	@Override
+	public void insert() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
 	
-	public abstract void insert();
-	public abstract void update();
-	public abstract void delete();
+	
 }

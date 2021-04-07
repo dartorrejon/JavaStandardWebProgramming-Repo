@@ -1,5 +1,25 @@
 package com.educacionit.bases;
 
-public class MariaDB {
+import com.educacionit.abs.SQLDataBase;
 
+public class MariaDB extends SQLDataBase {
+
+	@Override
+	public void insert() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
