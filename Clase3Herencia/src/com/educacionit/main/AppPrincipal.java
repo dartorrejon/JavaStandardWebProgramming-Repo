@@ -31,7 +31,7 @@ public class AppPrincipal {
 		integrantes.add(delBosque);
 		integrantes.add(Raul);
 		integrantes.add(Carlos);
-		
+		//		UTILIZAMOS LOS METODOS PROPIOS DE LA CLASE PADRE
 		//concentracion
 		System.out.println("Todos los integrantes realizan la concentracion.");
 		for (Persona aux : integrantes) {
@@ -40,6 +40,25 @@ public class AppPrincipal {
 			aux.concentrarse();
 		}
 		
+		System.out.println("UTILIZAMOS LOS METODOS PROPIOS DE LAS CLASES HIJAS");
+		//ENTRENAMIENTO
+		System.out.println("Entrenamiento de futbol:Solamente el entrenador y el futbolista tienen metodos para entrar");
+		System.out.println(delBosque.getNombre()+" "+delBosque.getApellido()+"->");
+		delBosque.dirigirEntrenamiento();
+		System.out.println(Raul.getNombre()+" "+Raul.getApellido()+"->");
+		Raul.entrenar();
+		
+		//MASAJE
+		System.out.println("Solo el masajista tiene el metodo para dar un masaje");
+		System.out.println(Carlos.getNombre()+" "+Carlos.getApellido()+"->");
+		Carlos.darMasaje();
+		
+		//Partido de futbol
+		System.out.println("Solamente el entrenador y los futbolistas tienen metodos para los partidos");
+		System.out.println(delBosque.getNombre()+" "+delBosque.getApellido()+"->");
+		delBosque.dirigirPartido();
+		System.out.println(Raul.getNombre()+" "+Raul.getApellido()+"->");
+		Raul.jugarPartido();
 		
 	}
 }

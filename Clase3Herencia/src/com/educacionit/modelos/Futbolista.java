@@ -38,9 +38,14 @@ public class Futbolista extends Persona{
 		this.demarcacion = demarcacion;
 	}
 
-	public void jugarPartido() {}
+	public void jugarPartido() 
+	{
+		System.out.println("Estoy jugando un partido(Clase Futbolista)");
+	}
 	
-	public void entrenar() {}
+	public void entrenar() {
+		System.out.println("Estoy entrenando(Clase Futbolista)");
+	}
 	
 	
 	

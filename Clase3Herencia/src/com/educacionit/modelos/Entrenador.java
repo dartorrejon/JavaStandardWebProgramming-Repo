@@ -7,11 +7,6 @@ public class Entrenador extends Persona{
 	private String idFederacion;
 	
 	
-	
-	
-
-	
-
 	public Entrenador(int id, String nombre, String apellido, int edad, String idFederacion) {
 		super(id, nombre, apellido, edad);
 		this.idFederacion = idFederacion;
@@ -31,8 +26,12 @@ public class Entrenador extends Persona{
 
 	public Entrenador() {}
 
-	public void dirigirPartido() {}
+	public void dirigirPartido() {
+		System.out.println("Estoy dirigiendo un partido de futbol(Clase Entrenador)");
+	}
 	
-	public void dirigirEntrenamiento() {}
+	public void dirigirEntrenamiento() {
+		System.out.println("Estoy dirigiendo un entrenamiento(Clase Entrenador)");
+	}
 	
 }
